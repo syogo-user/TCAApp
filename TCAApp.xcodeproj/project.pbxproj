@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		91CB51C42A3DC5F6001C28D6 /* TCAAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB51C32A3DC5F6001C28D6 /* TCAAppApp.swift */; };
-		91CB51C62A3DC5F6001C28D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB51C52A3DC5F6001C28D6 /* ContentView.swift */; };
 		91CB51C82A3DC5F8001C28D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CB51C72A3DC5F8001C28D6 /* Assets.xcassets */; };
 		91CB51CB2A3DC5F8001C28D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CB51CA2A3DC5F8001C28D6 /* Preview Assets.xcassets */; };
 		91CB51D52A3DC5F8001C28D6 /* TCAAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB51D42A3DC5F8001C28D6 /* TCAAppTests.swift */; };
 		91CB51DF2A3DC5F8001C28D6 /* TCAAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB51DE2A3DC5F8001C28D6 /* TCAAppUITests.swift */; };
 		91CB51E12A3DC5F8001C28D6 /* TCAAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB51E02A3DC5F8001C28D6 /* TCAAppUITestsLaunchTests.swift */; };
+		91CB51EF2A3DC634001C28D6 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 91CB51EE2A3DC634001C28D6 /* ComposableArchitecture */; };
+		91CB51F42A3DC682001C28D6 /* AddToCartDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB51F32A3DC682001C28D6 /* AddToCartDomain.swift */; };
+		91CB51F62A3DC694001C28D6 /* PlusMinusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB51F52A3DC694001C28D6 /* PlusMinusButton.swift */; };
+		91CB51F82A3DC6C0001C28D6 /* AddToCartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB51F72A3DC6C0001C28D6 /* AddToCartButton.swift */; };
+		91CB51FA2A3DC6D5001C28D6 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB51F92A3DC6D5001C28D6 /* Product.swift */; };
+		91CB51FC2A3DC6F0001C28D6 /* ProductDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB51FB2A3DC6F0001C28D6 /* ProductDomain.swift */; };
+		91CB51FE2A3DC717001C28D6 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CB51FD2A3DC717001C28D6 /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		91CB51C02A3DC5F6001C28D6 /* TCAApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91CB51C32A3DC5F6001C28D6 /* TCAAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAAppApp.swift; sourceTree = "<group>"; };
-		91CB51C52A3DC5F6001C28D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91CB51C72A3DC5F8001C28D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91CB51CA2A3DC5F8001C28D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91CB51D02A3DC5F8001C28D6 /* TCAAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,12 @@
 		91CB51DA2A3DC5F8001C28D6 /* TCAAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91CB51DE2A3DC5F8001C28D6 /* TCAAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAAppUITests.swift; sourceTree = "<group>"; };
 		91CB51E02A3DC5F8001C28D6 /* TCAAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91CB51F32A3DC682001C28D6 /* AddToCartDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDomain.swift; sourceTree = "<group>"; };
+		91CB51F52A3DC694001C28D6 /* PlusMinusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusMinusButton.swift; sourceTree = "<group>"; };
+		91CB51F72A3DC6C0001C28D6 /* AddToCartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartButton.swift; sourceTree = "<group>"; };
+		91CB51F92A3DC6D5001C28D6 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		91CB51FB2A3DC6F0001C28D6 /* ProductDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDomain.swift; sourceTree = "<group>"; };
+		91CB51FD2A3DC717001C28D6 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CB51EF2A3DC634001C28D6 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				91CB51C32A3DC5F6001C28D6 /* TCAAppApp.swift */,
-				91CB51C52A3DC5F6001C28D6 /* ContentView.swift */,
+				91CB51F02A3DC649001C28D6 /* Product */,
+				91CB51F22A3DC654001C28D6 /* AddToCart */,
 				91CB51C72A3DC5F8001C28D6 /* Assets.xcassets */,
 				91CB51C92A3DC5F8001C28D6 /* Preview Content */,
 			);
@@ -127,6 +140,26 @@
 			path = TCAAppUITests;
 			sourceTree = "<group>";
 		};
+		91CB51F02A3DC649001C28D6 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				91CB51F92A3DC6D5001C28D6 /* Product.swift */,
+				91CB51FB2A3DC6F0001C28D6 /* ProductDomain.swift */,
+				91CB51FD2A3DC717001C28D6 /* ProductCell.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		91CB51F22A3DC654001C28D6 /* AddToCart */ = {
+			isa = PBXGroup;
+			children = (
+				91CB51F32A3DC682001C28D6 /* AddToCartDomain.swift */,
+				91CB51F52A3DC694001C28D6 /* PlusMinusButton.swift */,
+				91CB51F72A3DC6C0001C28D6 /* AddToCartButton.swift */,
+			);
+			path = AddToCart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +176,9 @@
 			dependencies = (
 			);
 			name = TCAApp;
+			packageProductDependencies = (
+				91CB51EE2A3DC634001C28D6 /* ComposableArchitecture */,
+			);
 			productName = TCAApp;
 			productReference = 91CB51C02A3DC5F6001C28D6 /* TCAApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +251,9 @@
 				Base,
 			);
 			mainGroup = 91CB51B72A3DC5F6001C28D6;
+			packageReferences = (
+				91CB51ED2A3DC634001C28D6 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 91CB51C12A3DC5F6001C28D6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91CB51C62A3DC5F6001C28D6 /* ContentView.swift in Sources */,
+				91CB51F42A3DC682001C28D6 /* AddToCartDomain.swift in Sources */,
+				91CB51FC2A3DC6F0001C28D6 /* ProductDomain.swift in Sources */,
+				91CB51F62A3DC694001C28D6 /* PlusMinusButton.swift in Sources */,
+				91CB51FA2A3DC6D5001C28D6 /* Product.swift in Sources */,
+				91CB51F82A3DC6C0001C28D6 /* AddToCartButton.swift in Sources */,
+				91CB51FE2A3DC717001C28D6 /* ProductCell.swift in Sources */,
 				91CB51C42A3DC5F6001C28D6 /* TCAAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +621,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		91CB51ED2A3DC634001C28D6 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91CB51EE2A3DC634001C28D6 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91CB51ED2A3DC634001C28D6 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 91CB51B82A3DC5F6001C28D6 /* Project object */;
 }
